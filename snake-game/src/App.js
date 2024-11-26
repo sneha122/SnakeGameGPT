@@ -12,7 +12,6 @@ const SnakeGame = () => {
 
   useEffect(() => {
     const handleKeyPress = (e) => {
-        console.log("Handle this");
       switch (e.key) {
         case "ArrowUp":
           if (direction !== "DOWN") setDirection("UP");
